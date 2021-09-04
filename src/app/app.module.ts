@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgxBootstrapMultiselectModule } from 'ngx-bootstrap-multiselect';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    FormsModule,
     NgxBootstrapMultiselectModule,
     FlexLayoutModule,
     BrowserModule,

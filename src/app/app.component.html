@@ -1,0 +1,57 @@
+<div class="items-wraper">
+  <div class="item">
+    <div class="title">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">fxLayout</h5>
+          <h6 class="card-subtitle mb-2 text-muted">fxLayoutAlign</h6>
+          <p class="card-text">
+            The fxLayout directive should be used on DOM containers whose
+            children should layout or flow as the text direction along the
+            main-axis or the cross-axis.
+          </p>
+          <p class="card-text">
+            The fxLayoutAlign directive should be used on DOM containers whose
+            children should be aligned on the main and cross-axis (optional)
+          </p>
+          <ngx-bootstrap-multiselect
+            (ngModelChange)="onfxLayoutChange()"
+            [options]="FxLayoutOptions"
+            [texts]="FxLayoutTexts"
+            [settings]="mySettings"
+            [(ngModel)]="FlexLayoutOptionsModel"
+          ></ngx-bootstrap-multiselect>
+          <hr />
+          <ngx-bootstrap-multiselect
+            (ngModelChange)="onfxLayoutAlignChange()"
+            [options]="fxLayoutAligntOptions"
+            [texts]="fxLayoutAlignTexts"
+            [settings]="mySettings"
+            [(ngModel)]="fxLayoutAlignOptionsModel"
+          ></ngx-bootstrap-multiselect>
+          <hr />
+          <p>fxLayout: "{{fxLayout_value}}"</p>
+          <p>fxLayoutAlign: "{{fxLayoutAlign_value}}"</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div
+        [fxLayout]="fxLayout_value"
+        [fxLayoutAlign]="fxLayoutAlign_value"
+        class="container-1"
+      >
+        <div class="card-1">
+          <div class="card-body">CONTENT - 1</div>
+        </div>
+        <div class="card-1">
+          <div class="card-body">CONTENT - 2</div>
+        </div>
+        <div class="card-1">
+          <div class="card-body">CONTENT - 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
