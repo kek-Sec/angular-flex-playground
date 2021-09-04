@@ -114,6 +114,8 @@ fxLayoutAlign_value = 'start';
   ];
 //#endregion 
   
-ngOnInit(): void {}
+ngOnInit(): void {
+  
+}
   title = 'angular-flex-playground';
 }
