@@ -1,3 +1,7 @@
+
+<img src="https://app.travis-ci.com/kek-Sec/angular-flex-playground.svg?branch=main">
+
+
 https://kek-sec.github.io/angular-flex-playground
 
 # AngularFlexPlayground
