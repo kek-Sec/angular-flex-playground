@@ -76,7 +76,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-flex-playground:build:production"
+              "browserTarget": "angular-flex-playground:build:production",
+              "baseHref": "https://kek-sec.github.io/ngx-docs/"
             },
             "development": {
               "browserTarget": "angular-flex-playground:build:development"
