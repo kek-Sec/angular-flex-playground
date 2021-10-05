@@ -1,6 +1,6 @@
 
 <img src="https://app.travis-ci.com/kek-Sec/angular-flex-playground.svg?branch=main">
-
+[![CodeFactor](https://www.codefactor.io/repository/github/kek-sec/angular-flex-playground/badge)](https://www.codefactor.io/repository/github/kek-sec/angular-flex-playground)
 
 https://kek-sec.github.io/angular-flex-playground
 
