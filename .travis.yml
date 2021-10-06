@@ -14,7 +14,9 @@ install:
 
 script:
   - npm run-script build
-
+  - npm install codecov -g
+after_success:
+  - codecov
 deploy:
   provider: pages
   skip_cleanup: true
